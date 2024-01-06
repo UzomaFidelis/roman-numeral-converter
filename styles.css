@@ -1,0 +1,163 @@
+*,
+
+*::before,
+
+*::after {
+
+  box-sizing: border-box;
+
+}
+
+
+
+:root {
+
+  --veryDarkPurple: rgb(46, 2, 73);
+
+  --darkPurple: rgb(87, 10, 87);
+
+  --midPink: rgb(169, 16, 121);
+
+  --pink: rgb(248, 6, 204);
+
+  --purplyBlue: rgba(97, 12, 159, 0.4);
+
+}
+
+
+
+body {
+
+  font-family: sans-serif;
+
+  display: flex;
+
+  justify-content: center;
+
+  background-color: var(--veryDarkPurple);
+
+}
+
+
+
+h1 {
+
+  font-size: 2rem;
+
+  font-weight: 700; 
+
+  width: 80%;
+
+  margin: 2rem auto;
+
+  color: var(--pink);
+
+}
+
+
+
+main {
+
+  text-align: center;
+
+  width: 26rem;
+
+}
+
+
+
+.input-box {
+
+  width: 100%;
+
+  padding: 2rem;
+
+  margin-bottom: 1rem;
+
+  background-color: var(--darkPurple);
+
+  border: 2px solid var(--pink);
+
+}
+
+
+
+label, input {
+
+  display: block;
+
+}
+
+
+
+label {
+
+  color: var(--pink);
+
+}
+
+
+
+input {
+
+  margin: 1rem auto 1.5rem;
+
+  width: 80%;
+
+  font-size: 1.3rem;
+
+  text-align: center;
+
+}
+
+
+
+button {
+
+  width: 5rem;
+
+  padding: 0.6rem;
+
+  color: var(--veryDarkPurple);
+
+  border-radius: 30px;
+
+  border: none;
+
+  background-color: var(--pink);
+
+  box-shadow: 0 5px #333;
+
+  cursor: pointer;
+
+}
+
+
+
+button:active {
+
+  transform: translateY(3px);
+
+  box-shadow: 0 2px #000;
+
+}
+
+
+
+#output {
+
+  font-size: 1.2rem;
+
+  width: 100%;
+
+  padding: 2rem;
+
+  color: var(--pink);
+
+  background-color: var(--purplyBlue);
+
+  border: 2px solid var(--midPink);
+
+  display: none;
+
+}
